@@ -100,7 +100,7 @@ class Wheel extends React.Component {
         activeRegion.bind(forward, longTapGesture, function (e) {
             seekSongForward(e);
         });
-        
+
 
     }
 

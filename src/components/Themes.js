@@ -9,7 +9,7 @@ class Themes extends React.Component {
             <div className="music">
                 <h2>Theme Select</h2>
                 <ul>
-                    {["Rose Gold","Space Gray","Gold","Light Purple","Black"].map((element,index)=>{
+                    {["Snow White","Black","USC Gold","Space Gray","Pearl"].map((element,index)=>{
                         return active===index?<li key={index} className="active theme-li">{element}</li>:<li className="theme-li" key={index}>{element} </li>
                     })}
                 </ul>

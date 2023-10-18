@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import "../css/Playing.css"
 
 class Playing extends React.Component {
@@ -44,9 +44,9 @@ class Playing extends React.Component {
                 <div className="song-details">
                     <img src={songImgUrl} alt="songImg"></img>
                     <div>
-                        <h1>{songItems[songIndex]}</h1>
-                        {playing && <h5 className="play-pause-nav">Playing</h5>}
-                        {!playing && <h5 className="play-pause-nav">Paused</h5>}
+                        <h6>{songItems[songIndex]}</h6>
+                        {playing && <h4 className="play-pause-nav">Playing</h4>}
+                        {!playing && <h4 className="play-pause-nav">Paused</h4>}
                     </div>
                 </div>
                 <div className="status">

@@ -17,14 +17,16 @@
 /* img in song details */
 .song-details img{
     margin: auto;
-    width: 100px;
-    height: 100px;
+    margin-top: 10px;
+    width: 110px;
+    height: 110px;
 }
 
 /* name of song */
-.song-details h1{
-    margin: 0px;
-    font-size: 20px;
+.song-details h6{
+    margin: 2px;
+    margin-left: 5px;
+    font-size: 18px;
 }
 
 /* playing or not */
@@ -34,6 +36,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+
 }
 
 /* progress of song duration */
@@ -48,4 +51,9 @@
 #progress-bar{
     height: 10px;
     background-color: green;
+}
+
+.play-pause-nav {
+    margin-top: 20px;
+    font-size: 18px;
 }

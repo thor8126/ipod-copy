@@ -7,7 +7,7 @@ class Music extends React.Component {
         const {musicItems,active} = this.props;
         return (
             <div className="music">
-                <h2>Music</h2>
+                <h3>Music</h3>
                 <ul>
                 {musicItems.map((element, index)=>{
                             return active===index?<li key={index} className="active">&nbsp;{element}</li>:<li key={index}>&nbsp;{element}</li>
